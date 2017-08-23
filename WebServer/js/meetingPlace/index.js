@@ -13,8 +13,8 @@ $(function() {
             $.each(response.Result, function(i, item) {
                 itemCount = i; //i循环是从0开始
                 appendListHtml +=
-                    "<li href='#' class='list-group-item container-fluid' meetingPlaceID=" + item.meetingPlaceID + ">" +
-                    "<label class='col-xs-3 list-If'>" + item.meetingPlaceName + "</label>" +
+                    "<li href='#' class='list-group-item container-fluid list_index' meetingPlaceID=" + item.meetingPlaceID + ">" +
+                    "<label class='col-xs-3 list-If searchStr'>" + item.meetingPlaceName + "</label>" +
                     "<label class='col-xs-3 list-If'>" + item.meetingPlaceCapacity + "</label>" +
                     "<button class='btn btn-default  edit' type='button'>编辑</button>" +
                     "<button class='" + FreezeStateBtn[item.meetingPlaceFreezeState] + " " + "btn  freeze' buttonType=" + item.meetingPlaceFreezeState + " type='button'>" + FreezeStateString[item.meetingPlaceFreezeState] + "</button>" +
@@ -188,8 +188,8 @@ $(function() {
     $("#ContentRightHeadState span");
 });
 
-
-/*功能作废 源代码作废
+/*
+//功能作废 源代码作废
 //删除功能实现
 $(function() {
     //普通删除
@@ -215,8 +215,8 @@ $(function() {
         }
     });
 });
-*/
 
+*/
 
 
 /*

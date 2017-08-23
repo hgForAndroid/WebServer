@@ -1,0 +1,33 @@
+
+----------------------header--------------------------
+2017-07-18 01:05:36,516 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-07-18 01:05:36,899 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-07-18 01:05:36,900 [5] DEBUG DalLogger - 访问数据库DAL.DAO.Person_RoleDAO
+2017-07-18 01:05:36,907 [5] DEBUG DalLogger - 访问数据库DAL.DAO.RoleDAO
+2017-07-18 01:05:36,911 [5] DEBUG DalLogger - 访问数据库DAL.DAO.Role_PermissionDAO
+2017-07-18 01:05:36,916 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,919 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,919 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,920 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,921 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,922 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,922 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,922 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,923 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,923 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,924 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,925 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,925 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,925 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,926 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,926 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,926 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,927 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,927 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:36,928 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PermissionDAO
+2017-07-18 01:05:45,974 [13] DEBUG DalLogger - 访问数据库DAL.DAO.MeetingPlaceDAO
+2017-07-18 01:05:45,979 [13] DEBUG DalLogger - 访问数据库DAL.DAO.DeviceDAO
+2017-07-18 01:05:45,983 [13] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-07-18 01:05:45,983 [13] DEBUG DalLogger - 访问数据库DAL.DAO.Person_RoleDAO
+2017-07-18 01:05:45,985 [13] DEBUG DalLogger - 访问数据库DAL.DAO.RoleDAO
+2017-07-18 01:05:46,000 [13] DEBUG DalLogger - 访问数据库DAL.DAO.RoleDAO

@@ -34,3 +34,44 @@ function setStatus(respond) {
         });
     }
 }
+
+//=================================   //---------------新增------------------//
+//========================================================
+//在列表中查询
+var searchlist = new Array();
+var first = 1;
+function search(searchStr) {
+    searchStr = $.trim(searchStr);
+    console.log("搜索词:");
+    console.log(searchStr);
+    if (searchStr.length == 0) {
+        searchlist.each(function () {
+            $(this).show();
+        });
+        return;
+    }
+    searchlist.each(function () {
+        var item = $(this);
+        console.log(item.find(".searchStr").text());
+        var name = item.find(".searchStr").text();
+        var position = name.indexOf(searchStr);
+        if (position >= 0) {
+            item.show();
+        } else {
+            item.hide();
+        }
+    });
+
+}
+
+$(function () {
+    $(document).on("click", "#searchBtn", function () {
+        var searchStr = $("#searchInput").val();
+        if (first) {
+            searchlist = $(".list_index");
+            first = 0;
+        }
+        search(searchStr);
+    });
+});
+

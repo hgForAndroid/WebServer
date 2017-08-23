@@ -12,7 +12,7 @@
 
         var str = JSON.stringify(obj);
 
-        $.ajax({
+        $.ajax({       //jQuery.ajax()   --yq
             type: "POST",
             url: "/Account/Login",
             data: str,

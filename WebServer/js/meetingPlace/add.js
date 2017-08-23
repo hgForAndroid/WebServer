@@ -22,7 +22,7 @@ $(function(){
             $("#Status").text("会场容量不小于0");
             return;
         }
-        var seatType;
+        var seatType;         // 疑似无用代码  --yq
         $("#select option").each(function (i) {
             if (this.selected == true) {
                 seatType = this.value;

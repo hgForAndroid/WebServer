@@ -1,0 +1,74 @@
+
+----------------------header--------------------------
+2017-06-09 09:22:16,338 [1] INFO  WebLogger - 系统启动
+
+----------------------header--------------------------
+2017-06-09 10:53:07,975 [1] INFO  WebLogger - 系统启动
+2017-06-09 10:53:20,573 [10] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 10:58:38,107 [1] INFO  WebLogger - 系统启动
+2017-06-09 10:58:46,698 [8] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 11:13:28,383 [1] INFO  WebLogger - 系统启动
+2017-06-09 11:13:31,120 [7] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 11:20:00,596 [28] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 11:20:09,527 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 11:24:11,426 [1] INFO  WebLogger - 系统启动
+2017-06-09 11:24:14,459 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 11:26:21,327 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 11:30:36,689 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 11:37:51,706 [1] INFO  WebLogger - 系统启动
+2017-06-09 11:37:54,962 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 11:39:11,295 [1] INFO  WebLogger - 系统启动
+2017-06-09 11:39:16,313 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-09 11:58:25,876 [1] INFO  WebLogger - 系统启动
+2017-06-09 11:58:59,062 [11] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 12:43:12,118 [5] INFO  WebLogger - 服务器异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WebServer.Controllers.UserController.Import() 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Controllers\UserController.cs:行号 113
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-06-09 12:47:46,869 [8] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 12:47:53,042 [8] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 12:48:33,804 [39] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-09 12:48:43,620 [27] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71

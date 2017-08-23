@@ -1,0 +1,61 @@
+
+----------------------header--------------------------
+2017-06-07 23:34:37,745 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-06-07 23:34:38,814 [5] INFO  DalLogger - mysql 查询执行 : select max(personID) from person;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DB.MysqlDB.ExecuteQuery(String commandText, List`1 parameters) 位置 D:\Visual Studio\Project\Z100\DAL\DAL\DB\MysqlDB.cs:行号 52
+2017-06-07 23:34:39,842 [5] INFO  DalLogger - mysql 查询执行 : select * from person where personName=@personName;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DB.MysqlDB.ExecuteQuery(String commandText, List`1 parameters) 位置 D:\Visual Studio\Project\Z100\DAL\DAL\DB\MysqlDB.cs:行号 52
+2017-06-07 23:34:55,425 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-06-07 23:34:56,437 [5] INFO  DalLogger - mysql 查询执行 : select * from person where personName=@personName;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DB.MysqlDB.ExecuteQuery(String commandText, List`1 parameters) 位置 D:\Visual Studio\Project\Z100\DAL\DAL\DB\MysqlDB.cs:行号 52
+2017-06-07 23:35:36,969 [5] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-06-07 23:35:37,984 [5] INFO  DalLogger - mysql 查询执行 : select * from person where personName=@personName;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DB.MysqlDB.ExecuteQuery(String commandText, List`1 parameters) 位置 D:\Visual Studio\Project\Z100\DAL\DAL\DB\MysqlDB.cs:行号 52
+2017-06-07 23:36:03,017 [10] DEBUG DalLogger - 访问数据库DAL.DAO.PersonDAO
+2017-06-07 23:36:04,035 [10] INFO  DalLogger - mysql 查询执行 : select * from person where personName=@personName;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DB.MysqlDB.ExecuteQuery(String commandText, List`1 parameters) 位置 D:\Visual Studio\Project\Z100\DAL\DAL\DB\MysqlDB.cs:行号 52

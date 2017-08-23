@@ -13,8 +13,8 @@ $(function () {
             $.each(response.Result, function (i, item) {
                 itemCount = i; //i循环是从0开始
                 appendListHtml +=
-                    "<li href='#' class='list-group-item container-fluid' deviceID=" + item.deviceID + ">" +
-                    "<label class='col-md-4 list-If'>" + item.IMEI + "</label>" +
+                    "<li href='#' class='list-group-item container-fluid list_index' deviceID=" + item.deviceID + ">" +
+                    "<label class='col-md-4 list-If searchStr'>" + item.IMEI + "</label>" +
                     "<label class='col-md-4 list-If'>" + item.deviceIndex + "</label>" +
                     "<button class='btn btn-default col-md-1 col-md-offset-1 edit' type='button'>编辑</button>" +
                     "<button class='" + FreezeStateBtn[item.deviceFreezeState] + " " + "btn col-md-1 col-md-offset-1 freeze' buttonType=" + item.deviceFreezeState + " type='button'>" + FreezeStateString[item.deviceFreezeState] + "</button>" +

@@ -1,0 +1,87 @@
+
+----------------------header--------------------------
+2017-03-11 09:41:37,733 [1] INFO  WebLogger - 系统启动
+2017-03-11 10:48:27,828 [89] DEBUG WebLogger - 待插入的文件路径:2017-03-11-10-48-27-780.xls
+2017-03-11 10:48:29,181 [87] DEBUG WebLogger - excel srcPath: I:\c#_workspace\WebServer\WebServer\Upload\2017-03-11-10-48-27-780.xls
+2017-03-11 10:48:29,181 [87] DEBUG WebLogger - excel targetPath: I:\c#_workspace\APIServer\APIServer\Download\2017-03-11-10-48-27-780\2017-03-11-10-48-27-780.html
+2017-03-11 10:48:31,553 [87] INFO  WebLogger - excel转换html:
+System.Runtime.InteropServices.COMException (0x80010105): 服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT))
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 WebServer.Models.Document.FileConvertService.OfficeMethod.Excel2HTML(String sourcePath, String targetPath, String targetRelativeDirectory) 位置 i:\c#_workspace\WebServer\WebServer\Models\Document\FileConvertService\OfficeMethod.cs:行号 146
+2017-03-11 10:48:31,662 [87] DEBUG WebLogger - excel文件转换失败
+2017-03-11 10:48:31,740 [87] INFO  WebLogger - 文件转换失败
+System.Exception: 文件转换失败
+   在 WebServer.Models.Document.DocumentService.convertFile(Int32 agendaID) 位置 i:\c#_workspace\WebServer\WebServer\Models\Document\DocumentService.cs:行号 242
+2017-03-11 10:48:55,431 [86] DEBUG WebLogger - 待插入的文件路径:2017-03-11-10-48-55-417.doc
+2017-03-11 10:49:02,788 [89] DEBUG WebLogger - word src Path : I:\c#_workspace\WebServer\WebServer\Upload\2017-03-11-10-48-55-417.doc
+2017-03-11 10:49:02,788 [89] DEBUG WebLogger - word target Path : I:\c#_workspace\APIServer\APIServer\Download\2017-03-11-10-48-55-417\2017-03-11-10-48-55-417.html
+2017-03-11 10:49:57,900 [81] DEBUG WebLogger - 待插入的文件路径:2017-03-11-10-49-57-870.xls
+2017-03-11 10:49:58,702 [88] DEBUG WebLogger - excel srcPath: I:\c#_workspace\WebServer\WebServer\Upload\2017-03-11-10-49-57-870.xls
+2017-03-11 10:49:58,702 [88] DEBUG WebLogger - excel targetPath: I:\c#_workspace\APIServer\APIServer\Download\2017-03-11-10-49-57-870\2017-03-11-10-49-57-870.html
+2017-03-11 10:50:14,300 [81] DEBUG WebLogger - 待插入的文件路径:2017-03-11-10-50-14-264.xls
+2017-03-11 10:50:15,083 [89] DEBUG WebLogger - excel srcPath: I:\c#_workspace\WebServer\WebServer\Upload\2017-03-11-10-50-14-264.xls
+2017-03-11 10:50:15,176 [89] DEBUG WebLogger - excel targetPath: I:\c#_workspace\APIServer\APIServer\Download\2017-03-11-10-50-14-264\2017-03-11-10-50-14-264.html
+2017-03-11 10:50:15,988 [89] INFO  WebLogger - excel转换html:
+System.Runtime.InteropServices.COMException (0x80010105): 服务器出现意外情况。 (异常来自 HRESULT:0x80010105 (RPC_E_SERVERFAULT))
+   在 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   在 WebServer.Models.Document.FileConvertService.OfficeMethod.Excel2HTML(String sourcePath, String targetPath, String targetRelativeDirectory) 位置 i:\c#_workspace\WebServer\WebServer\Models\Document\FileConvertService\OfficeMethod.cs:行号 146
+2017-03-11 10:50:16,222 [89] DEBUG WebLogger - excel文件转换失败
+2017-03-11 10:50:16,268 [89] INFO  WebLogger - 文件转换失败
+System.Exception: 文件转换失败
+   在 WebServer.Models.Document.DocumentService.convertFile(Int32 agendaID) 位置 i:\c#_workspace\WebServer\WebServer\Models\Document\DocumentService.cs:行号 242
+
+----------------------header--------------------------
+2017-03-11 14:52:58,331 [1] INFO  WebLogger - 系统启动
+2017-03-11 14:59:47,841 [21] DEBUG WebLogger - 上传“导入文件”时间：21.0013ms
+2017-03-11 15:00:59,465 [21] INFO  WebLogger - 服务器异常
+System.InvalidOperationException: 未在本地计算机上注册“Microsoft.ACE.OleDB.12.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 WebServer.Models.Excel.Excel.import[T](String excelFilePath, String tableName, List`1& tlist) 位置 i:\c#_workspace\WebServer\WebServer\Models\Excel\Excel.cs:行号 79
+   在 WebServer.Models.User.UserService.createMultiple(String excelFilePath, String tableName, List`1& checkList) 位置 i:\c#_workspace\WebServer\WebServer\Models\User\UserService.cs:行号 145
+   在 WebServer.Controllers.UserController.Import() 位置 i:\c#_workspace\WebServer\WebServer\Controllers\UserController.cs:行号 129
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-03-11 15:11:56,659 [43] DEBUG WebLogger - 上传“导入文件”时间：100.0002ms
+
+----------------------header--------------------------
+2017-03-11 15:19:59,662 [1] INFO  WebLogger - 系统启动
+2017-03-11 15:20:24,371 [12] DEBUG WebLogger - 上传“导入文件”时间：31.0017ms

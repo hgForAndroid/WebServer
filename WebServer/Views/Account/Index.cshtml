@@ -3,14 +3,15 @@
 }
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head >
     <title>登录界面</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")             <!-- 1 -->
+    @Scripts.Render("~/bundles/modernizr")      <!-- 原理同上 -->
+    @Scripts.Render("~/bundles/jquery")
 
   
 
@@ -30,7 +31,7 @@
         <div id="input">
             <div id="userName">
                 <label for="userNameInput">用户名</label>
-                <input type="text" name="userName" class="userName" id="userNameInput" value="林连南" />
+                <input type="text" name="userName" class="userName" id="userNameInput" value="超级管理员" />
             </div>
             <div id="password">
                 <label for="passwordInput">密码</label>
@@ -39,9 +40,9 @@
         </div>
         <div id="select">
             <label>系统 :</label>
-            <input type="radio" name="system" class="system" id="admin" value="Admin" checked />
+            <input type="radio" name="system" class="system" id="admin" value="Admin"   checked />
             <label for="admin">管理员</label>
-            <input type="radio" name="system" class="system" id="organizor" value="Organizor"  />
+            <input type="radio" name="system" class="system" id="organizor" value="Organizor" />
             <label for="organizor">会议组织者</label>
         </div>
         <hr />

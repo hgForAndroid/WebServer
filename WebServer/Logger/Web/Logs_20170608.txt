@@ -1,0 +1,21 @@
+
+----------------------header--------------------------
+2017-06-08 14:01:14,568 [1] INFO  WebLogger - 系统启动
+
+----------------------header--------------------------
+2017-06-08 15:37:46,939 [1] INFO  WebLogger - 系统启动
+2017-06-08 15:38:16,804 [5] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-08 16:00:23,210 [1] INFO  WebLogger - 系统启动
+2017-06-08 16:00:37,974 [7] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-08 16:00:46,506 [15] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+2017-06-08 16:01:08,823 [14] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-08 16:20:23,430 [1] INFO  WebLogger - 系统启动
+2017-06-08 16:20:31,041 [6] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
+
+----------------------header--------------------------
+2017-06-08 16:56:57,476 [1] INFO  WebLogger - 系统启动
+2017-06-08 16:57:00,406 [8] ERROR WebLogger -    在 WebServer.Models.Device.DeviceService.getAll(List`1& devices) 位置 D:\Visual Studio\Project\Z100\WebServer\WebServer\Models\Device\DeviceService.cs:行号 71
